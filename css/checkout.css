@@ -1,0 +1,52 @@
+#checkout{
+	margin-top: 57px;
+	margin-bottom: 106px;
+}
+#checkout .woocommerce form .form-row input.input-text{
+	width: 100%;
+	border: 1px solid transparent;
+}
+#checkout .woocommerce form .form-row label{
+	width: 100%;
+}
+#checkout span.woocommerce-input-wrapper{
+	width: 100%;
+	border: 1px solid var(--greyBO);
+}
+#checkout .woocommerce-checkout #payment{
+	background: transparent;
+}
+#checkout .woocommerce-checkout #payment div.payment_box::before{
+	border: 1em solid var(--blueBO);
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+#checkout .woocommerce-checkout #payment div.payment_box{
+	background: var(--blueBO);
+	color: var(--whiteBO);
+	font-weight: bold;
+}
+#checkout .woocommerce button.button.alt{
+	height: 54px;
+	line-height: 30px;
+	color: var(--whiteBO) !important; 
+	font-size: 1rem !important; 
+	font-weight: bold !important; 
+	border-radius: 50px !important;
+	padding: .625rem 3.9375rem !important;
+	border:1px solid var(--greenBO) !important;
+
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00ba0c+0,74d900+100 */
+	background: rgb(0,186,12); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(0,186,12,1) 0%, rgba(116,217,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(0,186,12,1) 0%,rgba(116,217,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(0,186,12,1) 0%,rgba(116,217,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ba0c', endColorstr='#74d900',GradientType=1 ); /* IE6-9 */
+	transition: .3s all;
+}
+#checkout .woocommerce button.button.alt:hover{
+	cursor: pointer;
+	background: var(--whiteBO);
+	color: var(--greenBO) !important;
+}

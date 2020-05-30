@@ -1,0 +1,119 @@
+#post-main{
+	margin-top: 57px;
+	margin-bottom: 106px;
+}
+@media(max-width: 767px){
+	#post-main{
+		margin-top: 0px;
+		margin-bottom: 16px;
+	}
+}
+#post-main .card{
+	padding-top: 60px;
+	border: none;
+}
+#post-main .card .card-image{
+	width: 100%;
+	max-width: 777px;
+}
+@media(max-width: 767px){
+	#post-main .card .card-image{
+		padding-left: 15px;
+		padding-right: 15px; 
+	}
+}
+#post-main .card .card-body{
+	max-width: 575px;
+	padding: 77px 60px;
+}
+@media(max-width: 767px){
+	#post-main .card .card-body{
+		padding: 1.25rem 15px;
+	}
+}
+@media(min-width: 992px){
+	#post-main .card .card-body{
+		padding: 77px 60px;
+	}
+}
+#post-main .card .card-body .card-title a{
+	font-size: 1.6875rem;
+	font-weight: bold;
+	line-height: 27px;
+	font-weight: bold;
+	color: #4E4E4E;
+	transition: .3s all;
+}
+@media(max-width: 375px){
+	#post-main .card .card-body .card-title a{
+		font-size: 1.5rem;
+		line-height: 34px !important;
+	}
+}
+#post-main .card .card-body .card-title a:hover{
+	cursor: pointer;
+	text-decoration: none;
+	opacity: .8;
+}
+#post-main .card .card-body .card-text{
+	font-size: 1.125rem;
+	line-height: 18px
+}
+@media(max-width: 767px){
+	#post-main .card .card-body .card-text{
+		line-height: 28px;
+	}
+}
+#post-main .card .card-body .card-data{
+	font-size: .875rem;
+	line-height: 19px;
+}
+
+/*
+*posts
+*/
+#posts{
+	margin-bottom: 106px;
+}
+#posts .card{
+	border: none;
+}
+@media(min-width: 992px){
+	#posts .card{
+		max-width: 428px;	
+	}
+}
+#posts .card img{
+	width: 100%;
+	max-width: 428px;
+	height: 217px;
+	border-radius: 10px;
+}
+#posts .card .card-body .card-title a{
+	font-size: 1.25rem;
+	line-height: 30px;
+	font-weight: bold;
+	color: #4E4E4E;
+	transition: .3s all;
+}
+#posts .card .card-body .card-title a:hover{
+	cursor: pointer;
+	text-decoration: none;
+	opacity: .8;
+}
+#posts .card .card-body .card-text{
+	font-size: 1rem;
+	line-height: 28px;
+}
+#posts .card .card-body .card-data{
+	font-size: .8125rem;
+	line-height: 29px;
+}
+#posts .itens-post > div:first-child{
+	display: none;
+}
+@media(max-width: 767px){
+	.card-deck .card-body{
+		padding: 1.25rem 0;
+	}
+}

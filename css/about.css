@@ -1,0 +1,165 @@
+#banner-about{
+	margin-top: 53px;
+	margin-bottom: 106px;
+	background: var(--blueBO) !important;
+}
+@media(max-width: 1366px){
+	#banner-about{
+		height: 76vh !important;
+	}
+}
+@media(max-width: 767px){
+	#banner-about{
+		margin-top: 0px;
+	}
+}
+@media(max-width: 375px){
+	#banner-about{
+		height: 37vh !important;
+	}
+}
+@media(max-width: 320px){
+	#banner-about{
+		height: 66vh !important;
+	}
+}
+#banner-about .divider{
+	color: var(--whiteBO);
+	font-weight: 900;
+}
+#banner-about .title{
+	padding-top: 10%;
+}
+#banner-about .title h1, 
+#banner-about .title h2{
+	color: var(--whiteBO);
+}
+#banner-about .title h1{
+	text-transform: uppercase;
+	font-size: 1.125rem;
+	letter-spacing: 3px;
+}
+@media(max-width: 375px){
+	#banner-about .title h1{
+		font-size: .75rem
+	}
+}
+#banner-about .title h2{
+	font-size: 2.5rem !important;
+	font-weight: 900 !important;
+	line-height: 48px !important;
+	text-transform: none;
+	letter-spacing: 0px !important;
+}
+@media(max-width: 375px){
+	#banner-about .title h2{
+		font-size: 1.75rem !important;
+	}
+}
+
+/*
+*geral
+*/
+#company p,
+#mission p,
+#content-about p{
+	font-size: 1.125rem;
+	line-height: 25px;
+}
+#company strong,
+#mission strong,
+#content-about strong{
+	font-weight: 900;
+	color: var(--blackBO);
+}
+
+/*
+*content
+*/
+#content-about{
+	margin-bottom: 106px;
+}
+@media(min-width: 992px){
+	#content-about p{
+		width: 554px;
+	}
+}
+#content-about span{
+	color: var(--blueBO);
+	font-weight: bold;
+	line-height: 24px;
+}
+@media(max-width: 375px	){
+	#content-about span{
+		font-size: 1.31255rem;
+	}
+}
+
+/*
+*mission
+*/
+#mission{
+	margin-bottom: 106px;
+}
+#mission h4{
+	color: var(--blueBO);
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding-bottom: 15px;
+	margin-top: 0px !important;
+}
+#mission strong.other{
+	color: var(--greyMedium) !important;
+}
+#mission span{
+	color: var(--blueBO);
+	font-weight: bold;
+	line-height: 30px;
+}
+@media(max-width: 375px){
+	#mission span{
+		font-size: 1.5rem;
+	}
+}
+
+/*
+*origin
+*/
+#origin{
+	margin-bottom: 106px;
+}
+#origin h4{
+	font-size: 2.5rem;
+	font-weight: 900;
+	color: var(--blueBO);
+	margin-top: 0px !important;
+}
+@media(max-width: 375px){
+	#origin h4{
+		font-size: 1.875rem;
+		padding-top: 32px;
+	}
+}
+#origin p{
+	font-size: 1.125rem;
+	line-height: 25px;
+}
+
+/*
+*company
+*/
+#company{
+	margin-bottom: 106px;
+}
+#company h4{
+	font-size: 2.5rem;
+	font-weight: 900;
+	color: var(--blueBO);
+	margin-top: 0px !important;
+}
+@media(max-width: 375px){
+	#company h4{
+		font-size: 1.875rem;
+		padding-bottom: 32px;
+	}
+}

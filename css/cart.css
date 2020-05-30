@@ -1,0 +1,61 @@
+#cart{
+	margin-top: 106px;
+	margin-bottom: 106px;
+}
+#cart .woocommerce table.shop_table th{
+	font-size: 1rem !important;
+	font-weight: bold !important;
+	text-transform: uppercase;
+	line-height: 22px;
+	letter-spacing: 1.5px;
+}
+#cart .woocommerce table.cart td.actions .input-text{
+	width: 150px;
+	height: 48px;
+	border-radius: 27px;
+	border: 1px solid var(--greyBO);
+}
+#cart .woocommerce button.button.alt,
+#cart .woocommerce a.button.alt{
+	height: 54px;
+	line-height: 30px;
+	color: var(--whiteBO) !important; 
+	font-size: 1rem !important; 
+	font-weight: bold !important; 
+	border-radius: 50px !important;
+	padding: .625rem 3.9375rem !important;
+	border:1px solid var(--greenBO) !important;
+
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00ba0c+0,74d900+100 */
+	background: rgb(0,186,12); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(0,186,12,1) 0%, rgba(116,217,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(0,186,12,1) 0%,rgba(116,217,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(0,186,12,1) 0%,rgba(116,217,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ba0c', endColorstr='#74d900',GradientType=1 ); /* IE6-9 */
+	transition: .3s all;
+}
+#cart .woocommerce button.button.alt:hover,
+#cart .woocommerce a.button.alt:hover{
+	cursor: pointer;
+	background: var(--whiteBO);
+	color: var(--greenBO) !important;
+}
+#cart .woocommerce a.button{
+	top: 12px;
+}
+#cart .woocommerce a.button,
+#cart .woocommerce button.button{
+	font-size: 1rem !important;
+	font-weight: bold !important;
+	border: 1px solid var(--greyBlack) !important;
+	border-radius: 50px !important;
+	padding: .625rem 3.9375rem !important;
+	margin-top: 0;
+	transition: .3s all;
+}
+#cart .woocommerce button.button:hover,
+#cart .woocommerce a.button:hover{
+	cursor: pointer;
+	background: var(--greyBlack);
+	color: var(--whiteBO) !important;
+}

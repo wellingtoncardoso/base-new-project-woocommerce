@@ -1,0 +1,26 @@
+#favorite{
+	margin-top: 106px;
+	margin-bottom: 106px;
+}
+#favorite .woocommerce table.shop_table th{
+	font-size: 1rem !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+}
+#favorite .woocommerce a.button.alt{
+	font-size: 1rem !important;
+    font-weight: bold !important;
+    background: transparent;
+    color: var(--greyBlack);
+    border: 1px solid var(--greyBlack) !important;
+    border-radius: 50px !important;
+    padding: .625rem 3.9375rem !important;
+    margin-top: 17px;
+    transition: .3s all;
+}
+#favorite .woocommerce a.button.alt:hover{
+	background: var(--greyBlack);
+	color: var(--whiteBO);
+}

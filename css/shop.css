@@ -1,0 +1,220 @@
+#shop{
+	margin: 54px;
+	margin-bottom: 106px;
+	padding-top: 106px;
+}
+@media(max-width: 767px){
+	#shop{
+		margin: 0px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 0px;
+	}
+}
+#shop form{
+	padding-bottom: 16px !important;
+}
+#shop form select{
+	height: 54px;
+	border-radius: 27px;
+}
+#shop ul.products li.product{
+	max-width: 445px;
+	border: 1px solid var(--greyBO);
+	margin-right: 15px !important;
+	padding-bottom: 15px;
+	float: left;
+	border-radius: 10px;
+}
+@media(max-width: 767px){
+	#shop ul.products li.product{
+		width: 100% !important;
+		margin-bottom: 16px !important;
+	}
+}
+@media(min-width: 992px){
+	#shop ul.products li.product{
+		width: 25%;
+	}
+}
+#shop .product span.onsale{
+	background: var(--greenBlack);
+	width: 54.5px;
+	height: 54.5px;
+	color: var(--whiteBO);
+	border-radius: 0 0 0 100%;
+	position: absolute;
+	top: 88px;
+	left: 238px;
+	line-height: 17px;
+	font-weight: 900;
+	padding-left: 14px;
+	display: none;
+}
+#shop ul.products li.product .woocommerce-loop-product__title{
+	color: var(--greyBlack);
+	text-align: center;
+}
+#shop .price{
+	color: var(--greyBlack);
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 100%;
+	max-width: 250px;
+}
+#shop .price del{
+	width: 100%;
+	font-size: 1.5rem;
+	margin-bottom: -10px;
+	padding-left: 15px;
+	padding-right: 40px;
+}
+#shop .price ins{
+	width: 100%;
+	text-decoration: none;
+	font-size: 2rem;
+	font-weight: bold;
+	padding-left: 30px;
+	padding-right: 45px;
+}
+#shop .parcel-value{
+	color: var(--blueBO);
+	font-weight: 900;
+}
+#shop ul.products li.product .button{
+	margin: auto !important;
+	border-radius: 50px;
+	border: 1px solid transparent;
+	color: var(--whiteBO);
+	font-size: 1rem;
+	line-height: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding: .8rem 4rem;
+	display: table;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#74d900+0,00ba0c+100 */
+	background: rgb(116,217,0); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(116,217,0,1) 0%, rgba(0,186,12,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(116,217,0,1) 0%,rgba(0,186,12,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(116,217,0,1) 0%,rgba(0,186,12,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74d900', endColorstr='#00ba0c',GradientType=0 ); /* IE6-9 */
+	transition: .3s all;
+}
+#shop .added_to_cart{
+	margin: auto !important;
+	border-radius: 50px;
+	border: 1px solid var(--greyBlack);
+	color: var(--greyBlack);
+	font-size: 1rem;
+	line-height: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding: .8rem 4rem;
+	display: table;
+	transition: .3s all;
+}
+#shop .added_to_cart:hover{
+	background: var(--greyBlack);
+	color: var(--whiteBO);
+}
+#shop ul.products li.product .button:hover{
+	background: transparent;
+	color: var(--greenBlack);
+	border-color: var(--greenBlack);
+}
+#shop ul.products li a{
+	text-decoration: none;
+	width: 100%;
+	max-width: 250px;
+}
+#best-sellers .fa-heart-o:before,
+#shop .fa-heart-o:before{
+	color: var(--whiteBO) !important;
+}
+#best-sellers .fa-heart:before,
+#shop .fa-heart:before{
+	color: var(--blueBO) !important;
+}
+#shop .wpf_item .wpf_item_name{
+	display: none;
+}
+
+
+/*
+*best sellers
+*/
+#best-sellers{
+	margin-bottom: 106px;
+}
+#best-sellers h4{
+	text-align: center !important;
+	font-weight: 900;
+	font-size: 1.5rem;
+	color: var(--blueBO);
+	line-height: 41px;
+	margin-bottom: 64px !important;
+}
+#best-sellers del,
+#best-sellers .onsale{
+	display: none;
+}
+#best-sellers .products li{
+	text-align: center;
+	width: 100%;
+	max-width: 294px;
+	margin-right: 30px !important;
+	-webkit-box-shadow: 0px 0px 74px -12px rgba(0,0,0,0.26);
+	-moz-box-shadow: 0px 0px 74px -12px rgba(0,0,0,0.26);
+	box-shadow: 0px 0px 74px -12px rgba(0,0,0,0.26);
+}
+#best-sellers .products li:last-child{
+	margin-right: 0px !important;
+}
+#best-sellers .products li h2{
+	color: var(--greyBlack);
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 24px;
+	text-transform: inherit;
+}
+#best-sellers .products li ins{
+	color: var(--greyBlack);
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+#best-sellers .products li .parcel-value{
+	color: var(--blueBO);
+	font-weight: bold;
+}
+#best-sellers .woocommerce ul.products li.product .button{
+	margin: auto !important;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    color: var(--whiteBO);
+    font-size: 1rem;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: .8rem 4rem;
+    display: table;
+
+	background: rgb(116,217,0);
+    background: -moz-linear-gradient(top, rgba(116,217,0,1) 0%, rgba(0,186,12,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(116,217,0,1) 0%,rgba(0,186,12,1) 100%);
+    background: linear-gradient(to bottom, rgba(116,217,0,1) 0%,rgba(0,186,12,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74d900', endColorstr='#00ba0c',GradientType=0 );
+
+    transition: .3s all;
+}
+#best-sellers .woocommerce ul.products li.product .button:hover{
+	cursor: pointer;
+	background: transparent;
+	color: var(--greenBlack);
+	border-color: var(--greenBlack);
+}
+@media(max-width: 767px){
+	#best-sellers .products li{
+		max-width: 100%;
+		margin-bottom: 32px !important;
+	}
+}

@@ -1,0 +1,174 @@
+#myaccount-page{
+	margin-top: 106px;
+	margin-bottom: 106px;
+}
+#myaccount-page .woocommerce-MyAccount-navigation a{
+	font-size: 1rem;
+	font-weight: bold;
+	color: var(--greyMedium);
+	text-transform: uppercase;
+	transition: .3s all;
+}
+#myaccount-page .woocommerce-MyAccount-navigation a:hover{
+	cursor: pointer;
+	text-decoration: none;
+	opacity: .8;
+}
+#myaccount-page label{
+	width: 100%;
+}
+#myaccount-page .woocommerce-address-fields span{
+	width: 100%;
+	height: 54px;
+}
+#myaccount-page .woocommerce form .form-row input.input-text,
+#myaccount-page input[type="password"],
+#myaccount-page input[type="text"]{
+	width: 100%;
+	height: 54px !important;
+	padding-left: 15px;
+	border-radius: 27px;
+	border: 1px solid var(--greyBO);
+}
+#myaccount-page .woocommerce-Address-title a{
+	color: var(--greyMedium);
+}
+#myaccount-page .woocommerce-Address-title a,
+#myaccount-page .woocommerce button.button{
+	background: var(--whiteBO);
+	font-size: 1rem !important;
+    font-weight: bold !important;
+    border: 1px solid var(--greyBlack) !important;
+    border-radius: 50px !important;
+    padding: .625rem 3.9375rem !important;
+    margin-top: 17px;
+    transition: .3s all;
+}
+#myaccount-page .woocommerce-Address-title a:hover,
+#myaccount-page .woocommerce button.button:hover{
+	background: var(--greyBlack);
+	color: var(--whiteBO);
+	text-decoration: none;
+}
+/*
+*register/login
+*/
+#customer_login{
+	margin: 0 auto !important;
+}
+#customer_login .btn-link{
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: var(--blackBO);
+	transition: .3s all;
+	text-decoration: none;
+}
+#customer_login .btn-link:hover{
+	cursor: pointer;
+	opacity: .8;
+	text-decoration: none;
+}
+#customer_login h2,
+#customer_login #register2,
+#customer_login #wppb-form-element-22 textarea,
+#customer_login .wppb-send-credentials-checkbox,
+#customer_login .wppb-form-field > span{
+	display: none;
+}
+#customer_login a{
+	font-size: 1rem;
+	font-weight: bold;
+	color: var(--greyMedium);
+	transition: .3s all;
+}
+#customer_login a:hover{
+	cursor: pointer;
+	opacity: .8;
+	text-decoration: none;
+}
+#customer_login #wppb-form-element-2 span,
+#customer_login #wppb-form-element-4 span,
+#customer_login #wppb-form-element-8 span,
+#customer_login #wppb-form-element-15 span,
+#customer_login #wppb-form-element-16 span{
+	display: none;
+}
+
+
+#customer_login input[type="email"],
+#customer_login input[type="password"],
+#customer_login select{
+	width: 100%;
+	height: 54px !important;
+	border-radius: 27px;
+	border: 1px solid var(--greyBO);
+	padding-left: 15px;
+}
+#customer_login input[type="text"],
+#customer_login input[type="email"],
+#customer_login input[type="password"],
+#customer_login select{
+	color: var(--greyMedium);
+}
+@media(min-width: 992px){
+	#customer_login #wppb-form-element-19,
+	#customer_login #wppb-form-element-20,
+	#customer_login #wppb-form-element-21{
+		width: 33%;
+		flex: 0 0 33%;
+		float: left;
+	}
+}
+
+#customer_login #wppb-form-element-20 label,
+#customer_login #wppb-form-element-21 label{
+	color: var(--whiteBO) !important;
+}
+
+/*
+*button
+*/
+#customer_login #wppb-form-element-23 label{
+	float: right;
+	width: 95.3%;
+}
+#customer_login .wppb-radios{
+	float: left;
+	position: relative;
+	top: 8px;
+	width: 4.7%;
+	height: 4.7%;
+} 
+#customer_login .wppb-radios input[type="radio"]:after{
+	    width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        padding: 10px;
+        background-color: var(--blueBO);
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 1px solid var(--greyMedium);
+}
+
+#customer_login [type=submit]:not(:disabled),
+#customer_login .woocommerce button.button{
+	background: var(--blueBO);
+    border:1px solid var(--blueBO) !important;
+    border-radius: 27px;
+    padding: .8rem 2.5rem;
+    transition: .3s all;
+    color: var(--whiteBO);
+    width: 100%;
+    height: 54px;
+    transition: .3s all;
+}
+#customer_login [type=submit]:not(:disabled):hover,
+#customer_login .woocommerce button.button:hover{
+	cursor: pointer;
+	background: transparent;
+	color: var(--blueBO);
+}

@@ -1,0 +1,30 @@
+#order-tracking-page{
+	margin-top: 106px;
+	margin-bottom: 106px;
+}
+#order-tracking-page label{
+	width: 100%;
+}
+#order-tracking-page input[type="password"],
+#order-tracking-page input[type="text"]{
+	width: 100%;
+	height: 54px !important;
+	padding-left: 15px;
+	border-radius: 27px;
+	border: 1px solid var(--greyBO);
+}
+#order-tracking-page .woocommerce button.button{
+	background: var(--whiteBO);
+	font-size: 1rem !important;
+    font-weight: bold !important;
+    border: 1px solid var(--greyBlack) !important;
+    border-radius: 50px !important;
+    padding: .625rem 3.9375rem !important;
+    margin-top: 17px;
+    transition: .3s all;
+}
+#order-tracking-page .woocommerce button.button:hover{
+	background: var(--greyBlack);
+	color: var(--whiteBO);
+
+}

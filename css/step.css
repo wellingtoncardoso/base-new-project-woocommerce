@@ -1,0 +1,165 @@
+#banner-step{
+	margin-top: 54px;
+	margin-bottom: 106px;
+	background: var(--blueBO) !important;
+}
+@media(max-width: 1366px){
+	#banner-step{
+		height: 50vh !important;
+	}
+}
+@media(max-width: 767px){
+	#banner-step{
+		margin-top: 0px;
+	}
+}
+
+#banner-step .divider{
+	color: var(--whiteBO);
+	font-weight: 900;
+}
+#banner-step .title{
+	padding-top: 5%;
+	width: 100%;
+	max-width: 358px;
+	margin: auto;
+}
+#banner-step .title h1, 
+#banner-step .title p{
+	color: var(--whiteBO);
+}
+#banner-step .title h1{
+	font-size: 2.5rem !important;
+	font-weight: 900 !important;
+	line-height: 48px !important;
+	text-transform: none;
+	letter-spacing: 0px !important;
+}
+#banner-step .title p{
+	font-size: 1.125rem;
+	line-height: 24px;
+}
+
+/*
+*step
+*/
+#step{
+    margin-bottom: 106px;
+}
+
+/*
+*form
+*/
+#step .breadcrumb,
+#step .caldera-form-page,
+#step .form-group{
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+}
+#step .breadcrumb{
+	margin-bottom: 32px;
+}
+#step .caldera-grid a{
+	color: var(--blueBO);
+	font-weight: 900;
+}
+#step .breadcrumb>.active>a{
+	color: var(--greenBlack);
+	font-weight: 900;
+}
+#step #fld_917806Label,
+#step #fld_2711676Label,
+#step #fld_6845944Label,
+#step #fld_1504182Label,
+#step #fld_7321505Label,
+#step #fld_8554905Label,
+#step #fld_2507662Label,
+#step #fld_3216644Label{
+	margin-bottom: 64px;
+}
+
+#step #fld_1619873Label{
+	margin-top: 32px;
+}
+#step #fld_917806_1,
+#step #fld_2711676_1,
+#step #fld_3216644_1,
+#step #fld_1619873_1,
+#step #fld_6845944_1,
+#step #fld_1504182_1,
+#step #fld_7321505_1,
+#step #fld_8554905_1,
+#step #fld_2507662_1,
+#step .alert-warning{
+	display: none;
+}
+#step .caldera-grid label{
+	font-size: 1.5625rem;
+	line-height: 30px;
+}
+#step input[type="email"],
+#step input[type="text"]{
+	margin-top: 32px;
+	width: 100%;
+	height: 54px;
+	border-radius: 27px;
+}
+#step #form_page_1_pg_9 input[type="radio"],
+#step #form_page_1_pg_8 input[type="radio"],
+#step #form_page_1_pg_7 input[type="radio"],
+#step #form_page_1_pg_6 input[type="radio"],
+#step #form_page_1_pg_5 input[type="radio"],
+#step #form_page_1_pg_4 input[type="radio"],
+#step #form_page_1_pg_2 input[type="radio"]{
+	width: 5%;
+	float: left;
+	top: 10px;
+	position: relative;
+}
+#step #form_page_1_pg_9 label,
+#step #form_page_1_pg_8 label,
+#step #form_page_1_pg_7 label,
+#step #form_page_1_pg_6 label,
+#step #form_page_1_pg_5 label,
+#step #form_page_1_pg_4 label,
+#step #form_page_1_pg_2 label{
+	width: 95%;
+	float: right;
+}
+
+#step .caldera-grid .btn-default{
+	margin-top: 32px;
+	width: 100%;
+	height: 54px;
+	background: var(--greenBlack);
+	border-radius: 27px;
+	border: 1px solid var(--greenBlack);
+	color: var(--whiteBO);
+	font-size: 1.375rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition: .3s all;
+}
+#step .caldera-grid .btn-default:hover{
+	cursor: pointer;
+	background: transparent;
+	color: var(--greenBlack);
+}
+#step .btn-yes-no{
+	margin-top: 32px;
+	width: 100%;
+	height: 54px;
+	background: transparent;
+	border-radius: 27px;
+	border: 1px solid var(--blueBO);
+	color: var(--blueBO);
+	font-size: 1.375rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition: .3s all;
+}
+#step .btn-yes-no:hover{
+	background: var(--blueBO);
+	color: var(--whiteBO);
+}

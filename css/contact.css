@@ -1,0 +1,121 @@
+#banner-contact{
+	margin-top: 54px;
+	margin-bottom: 106px;
+	background: var(--blueBO) !important; 
+}
+@media(max-width: 1366px){
+	#banner-contact{
+		height: 49vh !important;
+	}
+}
+@media(max-width: 767px){
+	#banner-contact{
+		margin-top: 0px;
+		margin-bottom: 16px; 
+	}
+}
+@media(max-width: 320px){
+	#banner-contact{
+		height: 66vh !important;
+	}
+}
+#banner-contact .divider{
+	color: var(--whiteBO);
+	font-weight: 900;
+	position: relative;
+	top: -15px;
+}
+#banner-contact .title{
+	padding-top: 8%;
+}
+#banner-contact .title h1, 
+#banner-contact .title h2{
+	color: var(--whiteBO);
+}
+#banner-contact .title h2{
+	width: 100%;
+	max-width: 392px;
+	font-size: 2.5rem;
+	margin: auto !important;
+}
+#banner-contact .title h1{
+	text-transform: uppercase;
+	font-size: 1.125rem;
+	letter-spacing: 3px;
+	margin-bottom: 0px;
+}
+#banner-contact .title h2{
+	font-size: 2.5rem !important;
+	font-weight: 900 !important;
+	line-height: 48px !important;
+	text-transform: none;
+	letter-spacing: 0px !important;
+}
+@media(max-width: 375px){
+	#banner-contact .title h2{
+		font-size: 1.875rem !important
+	}
+}
+
+/*
+/contact form
+*/
+#contact{
+	margin-bottom: 106px;
+}
+#contact h4{
+	font-size: 1.5625rem;
+	color: var(--blackBO);
+	line-height: 30px;
+	font-weight: bold;
+	margin-top: 0px !important;
+}
+#contact form input{
+	width: 100%;
+	height: 54px;
+	border-radius: 27px;
+}
+#contact form .btn-primary{
+	background: var(--blueBO);
+	border-color: var(--blueBO);
+	font-weight: bold;
+	font-size: 1rem;
+	transition: .3s all;
+}
+#contact form .btn-primary:hover{
+	cursor: pointer;
+	background: transparent;
+	border-color: var(--blueBO);
+	color: var(--blueBO);
+}
+
+/*
+*contact card
+*/
+#contact .card{
+	width: 100%;
+	max-width: 279px;
+	border-radius: 10px;
+	padding: 1.75rem .75rem;
+	margin-bottom: 16px;
+}
+#contact .card .card-thumb{
+	margin: auto !important;
+}
+#contact .card .card-body h5{
+	text-align: center;
+	font-size: 1.125rem;
+	color: var(--blackBO);
+	font-weight: bold;
+	line-height: 22px;
+}
+#contact .card .card-body a{
+	color: var(--greyBlack);
+	font-weight: bold;
+	font-size: .75rem;
+	text-align: center;
+}
+#contact .card .card-body p{
+	font-size: .75rem;
+	line-height: 20px;
+}
